@@ -101,5 +101,20 @@ class DataTypesTableSeeder extends Seeder
                 'description'           => '',
             ])->save();
         }
+
+        $dataType = DataType::firstOrNew([
+            'slug'                  => 'reply',
+        ]);
+        if (!$dataType->exists) {
+            $dataType->fill([
+                'name'                  => 'replies',
+                'display_name_singular' => 'Reply',
+                'display_name_plural'   => 'Replies',
+                'icon'                  => 'voyager-paper-plane',
+                'model_name'            => 'TCG\\Voyager\\Models\\Reply',
+                'generate_permissions'  => 1,
+                'description'           => '',
+            ])->save();
+        }
     }
 }
