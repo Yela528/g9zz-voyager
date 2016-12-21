@@ -4,13 +4,14 @@
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
     "homepage": "https://the-control-group.github.io/voyager/",
+    "version": "v0.0.1",
     "support": {
         "issues": "https://github.com/Yela528/g9zz-voyager/issues",
         "source": "https://github.com/Yela528/g9zz-voyager"
     },
     "authors": [
         {
-            "name": "ChuSent",
+            "name": "ChuhSent",
             "email": "ylsc633@gmail.com"
         }
     ],
