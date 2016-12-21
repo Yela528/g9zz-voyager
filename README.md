@@ -94,3 +94,8 @@ php artisan voyager:admin your@email.com --create
 ```
 
 And you will be prompted for the users name and password.
+
+### update something
+
+- 更新`post`的`models`,添加`last_reply_user_id`方法,加入几个可修改字段 `'reply_count','view_count','vote_count','last_reply_user_id'`
+- 添加 `Reply Model`
