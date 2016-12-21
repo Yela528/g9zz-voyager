@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TCG\\Voyager\\": "src/"
+            "yela528\\g9zz-voyager\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TCG\\Voyager\\Tests\\": "tests/"
+            "yela528\\g9zz-voyager\\Tests\\": "tests/"
       }
     },
     "minimum-stability": "stable"
