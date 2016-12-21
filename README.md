@@ -26,7 +26,7 @@ Laravel Admin & BREAD System (Browse, Read, Edit, Add, & Delete), made for Larav
 After creating your new Laravel application you can include the Voyager package with the following command: 
 
 ```bash
-composer require tcg/voyager
+composer require yela528/g9zz-voyager
 ```
 
 Next make sure to create a new database and add your database credentials to your .env file:
